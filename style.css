@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.note-list {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.note-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.note-list li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.note-list li:last-child {
+    border-bottom: none;
+}
+
+.note-editor {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+#note-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#note-title, #note-content {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #ccc;
+}
+
+#save-note, #delete-note {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+#save-note:hover, #delete-note:hover {
+    background-color: #444;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.pagination button {
+    margin: 0 0.5em;
+}
+
+#search-input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #ccc;
+}
